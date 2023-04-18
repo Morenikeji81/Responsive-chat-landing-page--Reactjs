@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.pages_container {
+  cursor: pointer;
+}
+.page1 {
+  background-color: #f8f8fa;
+  display: flex;
+  padding: 70px 0px 70px 200px;
+}
+.page1_content {
+  padding: 0px 50px 0px 70px;
+}
+.page1_content_paragraph {
+  padding: 20px 0px 30px 0px;
+}
+.page_1_image {
+  width: 400px;
+  height: 300px;
+}
+.page2 {
+  background-color: #fb8e0b;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.page2_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+.first_card,
+.second_card {
+  width: 450px;
+  height: 170px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #fb8e0b;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  padding-left: 200px;
+}
+.first_card_heading,
+.second_card_heading {
+  padding: 20px 0px 10px 0px;
+}
+.first_card_info,
+.second_card_info {
+  display: flex;
+}
+.info_img {
+  margin-right: 20px;
+}
+
+.first_card_info {
+  position: absolute;
+  top: 360px;
+  left: 250px;
+}
+.second_card_info {
+  position: absolute;
+  top: 360px;
+  right: 300px;
+}
+.info_details1,
+.info_details2 {
+  padding: 10px 0px 0px 20px;
+}
+@media screen and (max-width: 768px) {
+  .page1 {
+    display: block;
+    padding: 20px 0px 20px 20px;
+  }
+  .page_1_image {
+    max-width: 90%;
+    height: auto;
+  }
+  .page1_content {
+    padding: 0px 10px 0px 20px;
+    font-size: 14px;
+  }
+  .page1_content_heading {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .page1_content_paragraph {
+    padding-bottom: 10px;
+  }
+  .fact_image {
+    height: auto;
+    max-width: 80%;
+  }
+  .card_container {
+    display: block;
+    padding: 0px 20px;
+  }
+  .first_card,
+  .second_card {
+    width: 323px;
+    height: 180px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #fb8e0b;
+    border-radius: 10px;
+    margin: 0px 20px 95px 0px;
+  }
+  .first_card_info {
+    position: absolute;
+    top: 364px;
+    left: 79px;
+  }
+  .second_card_info {
+    position: absolute;
+    top: 638px;
+    right: 69px;
+  }
+  .page2 {
+    height: 750px;
+  }
+}
+/* @media screen and (min-width: 769px){
+    .page1{
+        padding: 70px 0px 70px 50px; 
+    }
+    .card_container{
+        display: flex;
+        padding-left: 20px;
+    }
+    .first_card{
+        margin-right: 40px;
+
+    }
+    .first_card_info{
+        position: absolute;
+        top: 364px;
+        left: 79px;
+    }
+    .second_card_info{
+        position: absolute;
+        top:370px;
+        right: 194px;
+    }
+} */

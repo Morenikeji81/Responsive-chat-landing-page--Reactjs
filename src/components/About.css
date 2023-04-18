@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.better_experience{
+    cursor:pointer;
+}
+.about_container {
+  margin-left: 200px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.better_experience_heading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 70px 0px 50px 0px;
+}
+.video_message_info,
+.time_info,
+.safe_info {
+  display: flex;
+  padding-right: 50px;
+}
+.video_message_image,
+.time_image,
+.safe_image {
+  margin-right: 10px;
+}
+.video_chat_container {
+  background-color: #f8f8fa;
+  display: flex;
+  padding: 50px 0px 50px 200px;
+}
+.video_chat_content {
+  margin-left: 100px;
+}
+.Video_Chat_Image {
+  width: 400px;
+  height: 300px;
+}
+.video_chat_content_heading,
+.video_chat_content_paragraph {
+  padding: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .better_experience_heading {
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+  }
+  .about_container {
+    margin-left: 20px;
+    display: block;
+  }
+  .video_chat_content {
+    margin-left: 20px;
+  }
+  .video_message_info,
+  .time_info,
+  .safe_info {
+    padding: 10px 0px 20px 0px;
+  }
+  .video_chat_container {
+    display: block;
+    padding: 20px 0px 20px 20px;
+  }
+  .Video_Chat_Image {
+    height: auto;
+    max-width: 88%;
+    padding-top: 20px;
+  }
+  .video_chat_content_heading {
+    padding: 20px 0px 5px 0px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .video_chat_content_paragraph {
+    padding: 10px 0px 5px 0px;
+    font-size: 14px;
+  }
+}
+/* @media screen and (min-width: 769px){
+    .video_chat_container{
+        padding-left: 60px;
+    }
+} */
